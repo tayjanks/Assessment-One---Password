@@ -5,7 +5,7 @@ function containsLowerLetter (str){return /[a-z]/.test(str)};
 function containsUpperLetter (str){return /[A-Z]/.test(str)};
 function contiansSpecialChar(str){const specialChar =/[!@#$%^&*]/; return specialChar.test(str)};
 
-if (containsNumber(password)===false){console.log ("Your password needs at least one number/n" + figlet.figlet:figlet.chooseFont:acrobatic "WRONG")}
+if (containsNumber(password)===false){console.log ("Your password needs at least one number\n" + "WRONG")}
 else if (containsLowerLetter(password)===false){console.log("Your password needs at least one lower-case letter")}
 else if (containsUpperLetter(password)===false){console.log("Your password needs at least one upper-case letter")}
 else if (contiansSpecialChar(password)===false){console.log("Your password needs at least one special character")}
