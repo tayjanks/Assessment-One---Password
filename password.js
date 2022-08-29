@@ -1,4 +1,4 @@
-let password = "a!";
+let password = "aA!";
 
 function containsNumber (str){return /\d/.test(str)};
 function containsLowerLetter (str){return /[a-z]/.test(str)};
